@@ -1,0 +1,10 @@
+Java notes
+  - Everything in Java is a class.
+  - Java naming convention
+    Java uses camelCase.
+ 
+  - public static void main(String[] args){
+    // This is the entry point where we starting writing code
+    System.out.println("Hello Java!")
+  }
+}
