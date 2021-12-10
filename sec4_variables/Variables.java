@@ -1,0 +1,10 @@
+public class Variables {
+  public static void main(String[] args){
+    // main entry
+    int passengers = 20;
+    System.out.println("Passengers: " + passengers);
+
+    int busTickets = passengers;
+    System.out.println("Tickets: " + busTickets);
+  }
+}
