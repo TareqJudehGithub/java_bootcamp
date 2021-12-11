@@ -19,7 +19,7 @@ public class Bus {
 
     System.out.println("Total passengers: " + passengers + "\n");
 
-    System.out.println("End of shift!");
+    System.out.println("End of shift. Thank you!");
 
   }
 }
