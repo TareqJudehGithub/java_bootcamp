@@ -29,19 +29,29 @@ public class MathOperations {
     System.out.println(bagOfSweets1 / bagOfSweets2);
     System.out.println(starsInAndromeda / starsInAndromeda);
     System.out.println(testScore / bonusMarks);
-  }
+
+    /* Modulus %
+       The modulo operator is used to compute the remainder of an 
+       integer division
+    */
+
+    System.out.println("Modulo \n" + 10 % 3);
+
+    // add one ++   Increases a variable value by 1
+
+    // subtract one -- Decreases a variable value by 1
+
+    // add by =+    increases the value by the number on the right
+    // 10 += 5;
+
+    // subtract by =-    decreased the value by the number on the right
+    // 10 += 5;
+  } 
 }
 
-/* 
 
 
-
-
-
-
-
-
-
+/*
 Snape ended up removing marks. Ron actually scored <result> on his potions test
 
 
@@ -57,7 +67,6 @@ Originally, Fred had  <result> times more sweets than George
 Andromeda has <result> times more stars
 
 Snape caught the error. Furious, he divided Ron's score to: <result>
-
 
 
 Math Operators - Part 2
