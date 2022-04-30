@@ -3,7 +3,7 @@ Java notes
   - Java naming convention
     Java uses camelCase.
   - Java file name must be consistent with the class name.  
-  - Each line of code in java must end in semi colon;
+  - Each line of code in java must end in a semi colon;
  
   - public static void main(String[] args){
     // This is the entry point where we starting writing code
