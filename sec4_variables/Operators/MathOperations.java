@@ -1,9 +1,8 @@
-/**
- * MathOperations
- - In Java, math operations must be put between brackets.
- */
 public class MathOperations {
-
+  /**
+   * Operators practice
+   * @param args
+   */
   public static void main(String[] args) {
     int bagOfSweets1 = 5;
     int bagOfSweets2 = 10;
@@ -30,49 +29,28 @@ public class MathOperations {
     System.out.println(starsInAndromeda / starsInAndromeda);
     System.out.println(testScore / bonusMarks);
 
-    /* Modulus %
-       The modulo operator is used to compute the remainder of an 
-       integer division
-    */
-
-    System.out.println("Modulo \n" + 10 % 3);
-    System.out.println("10 is an even number, since dividing 10 by 2 has a remainder of: " + (10 % 2));
+    // modulus %
+    System.out.println("10 is an even number, since dividing 10 by 2 has a remainder of: " 
+    + (10 % 2));
+    System.out.println("5 is an odd number, since dividing 5 by 2 has a remainder of: " + (5 % 2));
 
     // add one ++   Increases a variable value by 1
+    int counter = 0;
+    counter++;
+    counter++;
+    System.out.println(counter);
 
     // subtract one -- Decreases a variable value by 1
+    counter--;
+    counter--;
+    System.out.println(counter);
+    /* add by =+    increases the value by the number on the right
+     10 += 5;
+     >>> 15 
 
-    // add by =+    increases the value by the number on the right
-    // 10 += 5;
-
-    // subtract by =-    decreased the value by the number on the right
-    // 10 += 5;
-  } 
+     subtract by =-    decreased the value by the number on the right
+     10 += 5;
+    */
+  }
 }
 
-
-
-/*
-Snape ended up removing marks. Ron actually scored <result> on his potions test
-
-
-
-Fred and George used a special spell to multiply their sweets to: <result>
-
-Snape made an error on his excel, accidentally multiplying Ron's score to: <result>/10
-
-
-
-Originally, Fred had  <result> times more sweets than George
-
-Andromeda has <result> times more stars
-
-Snape caught the error. Furious, he divided Ron's score to: <result>
-
-
-Math Operators - Part 2
-
-10 is an even number, since dividing 10 by 2 has a remainder of: <remainder>
-
-5 is an odd number, since dividing 5 by 2 has a remainder of: <remainder>
-*/
