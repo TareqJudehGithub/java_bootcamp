@@ -40,10 +40,6 @@ public class AppleStore {
         System.out.println("Wow! So far, you made: $" + profit);
         System.out.println(numOfCustomers + " customers love your apples.");
         System.out.println("You have " + numOfApples +" apples left. We'll sell more tomorrow!");
-
-
-
-
     }
 
 }
