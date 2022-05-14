@@ -1,11 +1,13 @@
 {
 	"java.project.sourcePaths": [
+		"sec6/logic_op",
 		"sec6/boolean",
 		"sec4_variables/Variables",
 		"sec4_variables/TypeCasting",
 		"sec4_variables/Scanners",
 		"sec4_variables/Operators",
 		"Java-Bootcamp-Resources/Module 1 - Introduction to Java/2. Variables/Workbook 2.4",
-		"sec6/if_statement"
+		"sec6/switch_statement",
+		"sec6"
 	]
 }
