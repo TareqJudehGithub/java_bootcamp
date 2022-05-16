@@ -11,6 +11,8 @@ public class ReturnValue {
 
     System.out.print("Width: ");
     double width = scan.nextDouble();
+
+    // Calculate area:
     double area = measureRectangle(length, width);
 
     stringPrinter(length, width, area);
@@ -21,12 +23,23 @@ public class ReturnValue {
 
   // functions
   public static double measureRectangle(double length, double width) {
-    double area = length * width;
-    return area;
+    if ( length < 0 || width < 0 ) {
+      System.out.println("Error in inputs");
+      System.exit(0); // break from the function
+    }
+      double area = length * width;
+      return area;
+   
+    
   }
-
+  
   public static void stringPrinter(double length, double width, double area) {
-    System.out.println("The area of a rectangle with length of " + length + 
-    " and width of " + width + " = " + area);
+    if ( length < 0 || width < 0) {
+      System.out.println("Negative values are not acceptable.");
+    }
+    else {
+      System.out.println("The area of a rectangle with length of " + length + 
+      " and width of " + width + " = " + area);
+    }
   }
 }
