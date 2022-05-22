@@ -16,14 +16,16 @@ public class RockPaperScissors {
         if (startGame.equals("yes") || startGame.equals("y")) {
             System.out.println("Great!\n rock – paper – scissors, shoot!");
 
-            String computerChoice = computerChoice();
-            System.out.println("Computer rolled: " + computerChoice);
-            
             // Pick user's choice
             System.out.print("Please enter a choice: ");
             String userChoice = scan.nextLine();
-            System.out.println("User roll: " + userChoice);
-            System.out.println(result(userChoice, computerChoice));
+
+            // Define computer function in a variable
+            String computerChoice = computerChoice();
+
+            String result = result(userChoice, computerChoice);
+
+            printResult(userChoice, computerChoice, result);
 
         }
         else{
@@ -136,11 +138,15 @@ public class RockPaperScissors {
      * @param result (String)
      * 
      * Inside the function:
-     * 
      *  1. prints everything:
      *      – prints: You chose:          <your choice>
      *      – prints: The computer chose: <computer choice>
      *      – prints: <result>
      */
+    public static void printResult(String yourChoice, String computerChoice, String result) {
+        System.out.println("You choose: " + yourChoice + ".\n" +
+        "Computer rolled: " + computerChoice+".\n" +
+        result);
+    }
 
 }

@@ -1,5 +1,6 @@
 {
 	"java.project.sourcePaths": [
+		"sec8_functions",
 		"sec6/logic_op",
 		"sec6/boolean",
 		"sec6",
@@ -8,6 +9,6 @@
 		"sec4_variables/Scanners",
 		"sec4_variables/Operators",
 		"Java-Bootcamp-Resources/Module 1 - Introduction to Java/2. Variables/Workbook 2.4",
-		"sec8_functions"
+		"sec9_loops"
 	]
 }
